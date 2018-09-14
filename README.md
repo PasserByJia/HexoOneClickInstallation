@@ -7,3 +7,9 @@ wget https://raw.githubusercontent.com/PasserByJia/HexoOneClickInstallation/mast
 chmod 777./Centos7-install.sh
 ./Centos7-install.sh
 ```
+国内npm 淘宝镜像优化脚本使用
+```shell
+wget https://raw.githubusercontent.com/PasserByJia/HexoOneClickInstallation/master/Centos7-install.sh
+chmod 777./Centos7-install.sh
+./Centos7-install.sh
+```

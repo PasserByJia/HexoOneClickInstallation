@@ -41,16 +41,6 @@ EOF
 
 chmod 777 /usr/local/blog/admin_script/hexo-generate.sh
 
-npm install hexo-generator-searchdb --save
-
-cat>>/usr/local/blog/_config.yml<<EOF
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
-EOF
-
 echo -e "请访问 https://www.devglan.com/online-tools/bcrypt-hash-generator 请将密码转换成bcrypt散列输入"
 
 read -p "请输入转换后的bcrypt密码：" bcrypt
